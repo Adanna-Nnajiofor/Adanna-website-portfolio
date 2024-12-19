@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="bg-gray-200 text-black p-6 flex flex-col lg:flex-row lg:items-start w-full h-full">
       {/* Text Section */}
-      <div className="m-6 w-full mt-6 flex flex-col lg:mt-10 lg:w-1/2">
+      <div className="m-6 w-auto mt-6 flex flex-col lg:mt-10 lg:w-1/2">
         <div className="py-4 text-center border-solid border-2 bg-gray-300 border-purple-600 rounded-lg shadow-lg">
           <h1 className="font-extrabold text-3xl text-black">ABOUT ME</h1>
         </div>
@@ -45,7 +45,7 @@ const About = () => {
       </div>
 
       {/* Image Section */}
-      <div className="flex flex-col m-6 w-full h-full lg:w-1/2 lg:m-0 rounded-xl shadow-md bg-purple-200">
+      <div className="flex flex-col m-6 w-auto h-full lg:w-1/2 lg:m-0 rounded-xl shadow-md bg-purple-200">
         <img
           className="w-full h-auto object-cover rounded-xl p-6"
           src={avatar}
